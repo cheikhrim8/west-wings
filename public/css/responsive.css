@@ -35,7 +35,6 @@
         font-size: 41px;
         line-height: 44px
     }
-
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -67,14 +66,17 @@
 }
 
 @media (max-width: 575px) {
-    .header {
-        height: 60px;
+    .banner_main strong{
+        display: none;
     }
     .full_bg {
         background: url(../images/banner_mobile.jpg);
-        background-size: 100% 80%;
+        background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    .about{
+        padding-top: 0;
     }
     .header {
         padding: 20px 0px;
@@ -91,7 +93,7 @@
     }
 
     .build_box {
-        padding-top: 20%;
+        padding-top: 25%;
     }
 
     .build_box .conatct_btn {
