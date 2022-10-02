@@ -1,0 +1,10 @@
+#about, #features , #contact{
+    text-align: right !important;
+}
+#features p{
+    margin-inline-start: 3rem;
+}
+#about .list-inline i,
+#features .list-inline i{
+    margin-inline-end: 1rem;
+}

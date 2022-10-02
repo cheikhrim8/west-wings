@@ -33,6 +33,8 @@
 </head>
 <!-- body -->
 <body class="main-layout">
+<!-- Topbar Start -->
+<!-- Topbar End -->
 @yield('content')
 <!-- Javascript files-->
 <script src="js/jquery.min.js"></script>
