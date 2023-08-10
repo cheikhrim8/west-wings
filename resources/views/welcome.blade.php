@@ -10,7 +10,7 @@
         <a class="active" href="">Home</a>
         <a href="#wwm">WW Mauritania</a>
         <a href="#wwc">WW Cameroon</a>
-        <a href="#wwn">WW Nigeria</a>
+        <a href="#wwn">WW Congo</a>
     </div>
     <!-- header -->
     <header class="full_bg">
@@ -100,7 +100,7 @@
                     <div class="col-md-4" id="wwn">
                         <div class="about_img">
                             <a href="{{route('wwn.index')}}">
-                                <figure><img src="images/wwn.jpg" alt="#"/></figure>
+                                <figure><img src="{{ asset('images/wwcongo.jpg') }}" alt="#"/></figure>
                             </a>
                         </div>
                     </div>
